@@ -1,0 +1,33 @@
+header>*{
+  margin-top: -5px;
+}
+nav {
+  font-family: 'poppins';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(18, 18, 62);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    /* border: 2px solid red; */
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.2rem;
+  }
+
+  .left {
+    font-size: 1.5rem;
+  }
